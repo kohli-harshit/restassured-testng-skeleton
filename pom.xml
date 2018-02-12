@@ -5,7 +5,18 @@
     <artifactId>restassured-testng-skeleton</artifactId>
     <version>1.0</version>
 
+     <repositories>
+	<repository>
+		<id>monotype</id>
+		<url>http://noi-qa-jenkins:8081/nexus/content/repositories/monotype</url>
+	</repository>
+    </repositories>
     <dependencies>
+	<dependency>
+  		<groupId>com.monotype.qe</groupId>
+  		<artifactId>framework</artifactId>
+  		<version>0.0.4</version>
+	</dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
